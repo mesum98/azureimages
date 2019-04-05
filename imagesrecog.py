@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 
 # Replace <Subscription Key> with your valid subscription key.
-subscription_key = fbcd9b58ca0443aaaab6348c3a564cb8
+subscription_key = "fbcd9b58ca0443aaaab6348c3a564cb8"
 assert subscription_key
 
 # You must use the same region in your REST call as you used to get your
@@ -21,7 +21,7 @@ vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0
 analyze_url = vision_base_url + "analyze"
 
 # Set image_path to the local path of an image that you want to analyze.
-image_path = /Users/mehdi/Desktop/mattcartoon.png
+image_path = "/Users/mehdi/Desktop/mattcartoon.png"
 
 # Read the image into a byte array
 image_data = open(image_path, "rb").read()
