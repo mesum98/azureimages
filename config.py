@@ -1,1 +1,1 @@
-subscription_key =
+subscription_key = xxxx
