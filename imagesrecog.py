@@ -1,7 +1,9 @@
 import requests
+import config
 # If you are using a Jupyter notebook, uncomment the following line.
 #%matplotlib inline
 import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
 from PIL import Image
 from io import BytesIO
 
@@ -43,3 +45,4 @@ image = Image.open(BytesIO(image_data))
 plt.imshow(image)
 plt.axis("off")
 _ = plt.title(image_caption, size="x-large", y=-0.1)
+################ THIS WILL BE GETTING TEXT FROM THE IMAGE############################
